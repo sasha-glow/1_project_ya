@@ -187,11 +187,11 @@
 }
 
 .feynman {
-  height: 70vh;
   margin: 0 auto;
   background-color: #f2f2f2;
   position: relative;
-  z-index: -2;
+  overflow: hidden;
+  z-index: 1;
 }
 
 .feynman__title {
@@ -206,7 +206,7 @@
 }
 
 .feynman__subtitle {
-  margin: 70px auto auto;
+  margin: 70px auto 400px;
   text-align: center;
   line-height: 51px;
   font-size: 36px;
@@ -224,7 +224,7 @@
   font-weight: normal;
   color: #2f80ed;
   text-decoration: none;
-  z-index: 3;
+  z-index: 2;
 }
 
 .feynman__img{
@@ -385,3 +385,4 @@
   text-decoration: none;
   color: white;
 }
+
