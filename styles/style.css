@@ -20,7 +20,6 @@
   display: flex;
   position: relative;
   background-color: #f2f2f2;
-  /* выше установили ограничения для секции */
 }
 
 .logo {
@@ -86,7 +85,7 @@
 }
 
 .description {
-  margin: 100px auto;
+  margin: 100px auto 0;
   width: 80%;
 }
 
@@ -125,7 +124,7 @@
   font-size: 24px;
 }
 
-.no-margin-bottom {
+.two-columns__paragraph_no-margin_bottom {
   margin-bottom: 0;
 }
 
@@ -138,21 +137,11 @@
 
 .section-title {
   width: 60%;
-  margin: 0 auto 20px;
-  text-align: center;
-  line-height: 1.15;
-  font-size: 60px;
-  font-weight: bolder;
-}
-/*ОСТАНОВИЛСЯ ТУТ !!!*/
-.section-title_theme_dark {
-  width: 60%;
   margin: 90px auto 20px;
   text-align: center;
   line-height: 1.15;
   font-size: 60px;
   font-weight: bolder;
-  color: white;
 }
 
 .section-subtitle {
@@ -164,16 +153,6 @@
   font-weight: normal;
 }
 
-.section-subtitle_theme_dark {
-  width: 60%;
-  margin: 0 auto;
-  text-align: center;
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-  color: white;
-}
-
 .table {
   width: 1100px;
   margin: 0 auto;
@@ -183,10 +162,6 @@
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
-}
-
-.table_theme_dark {
-  color: white;
 }
 
 .table__cell {
@@ -273,6 +248,7 @@
   background-color: #1f1f1f;
   z-index: -2;
   overflow: hidden;
+  color: white;
 }
 
 .kaufman__triangle {
