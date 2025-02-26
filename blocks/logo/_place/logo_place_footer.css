@@ -1,7 +1,7 @@
 .logo_place_footer {
     width: 228px;
     height: 32px;
-    background-image: url(../images/logo_place_footer.svg);
+    background-image: url(/images/logo_place_footer.svg);
     position: absolute;
     top: 0;
     left: 0;
