@@ -1,3 +1,9 @@
+/*ACTIONS*/
+/*rotation of blue square*/
+@import url(../blocks/rotation/rotation.css);
+/*link hover opacity*/
+@import url(../blocks/link-hover-opacity/link-hover-opacity.css);
+
 /*HEADER*/
 @import url(../blocks/header/header.css);
 @import url(../blocks/logo/_place/logo_place_header.css);
@@ -7,8 +13,6 @@
 @import url(../blocks/header/__main-illustration/header__main-illustration.css);
 @import url(../blocks/header/__main-illustration/header__main-illustration-image.css);
 @import url(../blocks/header/__square-pic/header__square-pic.css);
-/*rotation of blue square*/
-@import url(../blocks/rotation/rotation.css);
 
 /*CONTENT*/
 @import url(../blocks/content/content.css);
@@ -64,6 +68,10 @@
 @import url(../blocks/content/kaufman/kaufman.css);
 @import url(../blocks/content/digits/table/__cell/_theme/table__cell_theme_dark.css);
 @import url(../blocks/content/kaufman/__triangle/kaufman__triangle.css);
+/*resources*/
+@import url(../blocks/content/resources/resources.css);
+@import url(../blocks/content/resources/__logo-zone/resources__logo-zone.css);
+@import url(../blocks/content/resources/__link/resources__link.css);
 
 /*FOOTER*/
 @import url(../blocks/footer/footer.css);
@@ -96,6 +104,6 @@
     margin-top: 40px;
   }
 
-.border {
+  /*.border {
     border: solid 1px red;
-  }
+  }*/
